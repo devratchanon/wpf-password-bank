@@ -416,3 +416,25 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Rider / JetBrains
+.idea/
+
+# Local environment and secret files
+.env.*
+*.secret.json
+appsettings.Development.json
+
+# App-specific
+*.vault
+*.vault.json
+*.key
+
+# Windows odds and ends & dumps
+Thumbs.db
+*.dmp
+
+# Demo/build artifacts outside the code
+/dist/
+/publish/
